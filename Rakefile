@@ -6,3 +6,9 @@ task :console do
   ARGV.clear
   IRB.start
 end
+
+# task :pry do
+#   require "pry"
+#   Pry.start
+# end
+
